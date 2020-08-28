@@ -1,0 +1,33 @@
+.card {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--default-color-card);
+  border-radius: 5px;
+  margin: 5px 10rem;
+  flex-direction: column;
+  transition: all 300ms ease 0s;
+  margin-top: 60px;
+}
+
+.card:hover {
+  scale: 1.1;
+  box-shadow: 6px 6px 15px 3px rgb(250, 250, 250, 0.2);
+}
+
+.card .name {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0px calc(10rem - 50px);
+  user-select: none;
+  color: var(--default-font-card);
+}
+
+.card .game {
+  font-size: 20px;
+  margin: 0px;
+  user-select: none;
+  color: var(--default-font-card);
+}

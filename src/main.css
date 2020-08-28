@@ -4,6 +4,8 @@
   --background-color-header: #fff;
   --default-color-button: #f00;
   --default-font-color-button: #fff;
+  --default-color-card: #fff;
+  --default-font-card: #778ca3;
 }
 
 * {
@@ -41,7 +43,7 @@ body {
   border-radius: 4px;
   border: medium none;
   height: 40px;
-  padding: 0 50px;
+  width: 200px;
   margin: 2px 15px;
   font-weight: bold;
   box-sizing: border-box;
